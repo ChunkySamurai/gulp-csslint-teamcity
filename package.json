@@ -1,0 +1,34 @@
+{
+  "name": "gulp-csslint-teamcity",
+  "version": "0.0.1",
+  "description": "TeamCity Reporter for gulp-csslint",
+  "main": "index.js",
+  "dependencies": {
+    "teamcity-service-messages": "^0.1.6"
+  },
+  "devDependencies": {
+    "jshint-stylish": "~1.0.0",
+    "gulp-util": "~3.0.1",
+    "gulp-bump": "~0.1.11",
+    "gulp-git": "~0.5.1",
+    "gulp-jshint": "~1.8.5",
+    "gulp": "~3.8.8"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunkysamurai/gulp-csslint-teamcity.git"
+  },
+  "keywords": [
+    "teamcity",
+    "csslint",
+    "reporter",
+    "gulp",
+    "gulpplugin"
+  ],
+  "author": "Chunky Samurai <contact@chunkysamurai.com> (www.chunkysamurai.com)",
+  "bugs": "https://github.com/hongymagic/jshint-teamcity/issues",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
