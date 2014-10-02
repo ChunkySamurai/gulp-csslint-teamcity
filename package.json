@@ -1,6 +1,6 @@
 {
   "name": "gulp-csslint-teamcity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TeamCity Reporter for gulp-csslint",
   "main": "index.js",
   "dependencies": {
