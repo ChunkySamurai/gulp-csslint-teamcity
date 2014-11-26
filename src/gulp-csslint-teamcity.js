@@ -2,8 +2,9 @@
   'use strict';
 
   var teamcityReporter = function (tsm, file) {
+    var messages = [];
     var name = 'CSSLint: ' + file.path;
-    tsm.testStarted({ name: name});
+    messages.push(tsm.testStarted({ name: name}));
 
     if (file.csslint.errorCount > 0) {
       file.csslint.results.forEach(function (result) {
@@ -21,15 +22,19 @@
           '] ' +
           message.message + ' ' + message.rule.desc + ' (' + message.rule.id + ')';
 
-        tsm.testFailed({
+        messages.push(tsm.testFailed({
           name: name,
           message: message.message,
           details: details
-        });
+        }));
       });
     }
 
-    tsm.testFinished({ name: name});
+    messages.push(tsm.testFinished({ name: name}));
+
+    if (!tsm.stdout) {
+      return messages;
+    }
   };
 
   module.exports = teamcityReporter;

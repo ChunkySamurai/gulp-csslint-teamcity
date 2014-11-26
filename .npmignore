@@ -2,8 +2,4 @@
 .npmignore
 node_modules
 .travis.yml
-gulpfile.js
-gulp/
 tests/
-
-.idea

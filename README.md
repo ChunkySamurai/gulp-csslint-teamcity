@@ -40,7 +40,7 @@ Then make sure teamcity builds the project with the --teamcity argument:
 gulp build --teamcity
 ```
 
-[travis-url]: http://travis-ci.org/chunkysamurai/gulp-csslint-teamcity
-[travis-image]: https://travis-ci.org/chunkysamurai/gulp-csslint-teamcity.svg
+[travis-url]: http://travis-ci.org/ChunkySamurai/gulp-csslint-teamcity
+[travis-image]: https://travis-ci.org/ChunkySamurai/gulp-csslint-teamcity.svg
 [npm-url]: https://npmjs.org/package/gulp-csslint-teamcity
 [npm-image]: https://badge.fury.io/js/gulp-csslint-teamcity.png
